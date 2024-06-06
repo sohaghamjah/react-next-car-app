@@ -11,8 +11,8 @@ export default function Navbar() {
         <Link href="/" className='flex justify-center items-center'>
           <Image 
             src={Logo}
-            width={180}
-            height={180}
+            width={118}
+            height={18}
             className='object-contain'
             alt="Logo"
           />
