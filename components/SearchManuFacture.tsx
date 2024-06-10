@@ -43,7 +43,7 @@ export default function SearchManuFacture({manuFacturer, setManuFacturer}: searc
                     afterLeave={() => setQuery('')}
                 >
 
-                <ComboboxOptions className="search-manufacturer__options">
+                <ComboboxOptions className="search-manufacturer__options z-20">
                     {
                     filteredManuFactures.length === 0 && query !== '' ? (
                         <ComboboxOption 
